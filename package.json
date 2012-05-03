@@ -26,7 +26,8 @@
   "preferGlobal": true,
   "dependencies": {
     "mocha": "1.0.x",
-    "chai": "0.5.x"
+    "chai": "0.5.x",
+    "findit": "0.1.x"
   },
   "scripts": {
     "test": "node bin/tests.js test"
