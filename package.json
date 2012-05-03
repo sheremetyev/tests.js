@@ -1,0 +1,31 @@
+{
+  "name": "tests",
+  "version": "0.0.1",
+  "description": "Console test runner - writes to stdin, reads stdout",
+  "keywords": [
+    "test",
+    "console",
+    "stdin",
+    "stdout"
+  ],
+  "author": "Fyodor Sheremetyev <sheremetyev@gmail.com>",
+  "contributors": [ 
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/sheremetyev/tests.js/raw/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sheremetyev/tests.js"
+  },  
+  "main": "./lib/tests.js",
+  "bin": "./bin/tests.js",
+  "preferGlobal": true,
+  "dependencies": {
+  },
+  "scripts": {
+  }
+}
