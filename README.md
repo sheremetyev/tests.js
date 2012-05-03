@@ -1,4 +1,12 @@
 tests.js
 ========
 
-Console test runner - writes to stdin, reads stdout.
+Console test runner - writes to stdin, reads stdout. For example:
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+wc
+<<<
+one two three
+>>>
+       1       3      14
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
