@@ -25,6 +25,8 @@
   "bin": "./bin/tests.js",
   "preferGlobal": true,
   "dependencies": {
+    "mocha": "1.0.x",
+    "chai": "0.5.x"
   },
   "scripts": {
   }
