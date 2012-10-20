@@ -44,8 +44,10 @@ one two three
        1       3      14
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This tests executes `wc` command, sends string `one two three` to its stdin and
-checks the output of the program. Output will look like this:
+This test executes `wc` command, sends string `one two three` to its stdin and
+checks the output of the program.
+
+When the test is run you should see something like
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ✓  /path/to/tests/wc.test: 9ms
@@ -53,7 +55,7 @@ checks the output of the program. Output will look like this:
 ✔  1 test complete (9ms)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To compare program’s output with expected output not as literal strings but as a
+To compare program’s output with expected output not as literal strings but as
 JSON objects write `>>>JSON` in the test file instead of `>>>`.
 
 For more examples see
